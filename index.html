@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PMP-WBS Dashboard</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Project Management Plan & Work Breakdown Structure</h1>
+    <div class="header-actions">
+      <select id="viewSelector">
+        <option value="dashboard">Dashboard</option>
+        <option value="wbs">WBS Explorer</option>
+        <option value="schedule">Schedule</option>
+        <option value="raci">RACI Matrix</option>
+        <option value="risk">Risk Register</option>
+        <option value="cost">Cost Breakdown</option>
+        <option value="she">SHE / Quality</option>
+        <option value="compliance">Compliance</option>
+      </select>
+    </div>
+  </header>
+  <main>
+    <div id="viewContainer"></div>
+  </main>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
